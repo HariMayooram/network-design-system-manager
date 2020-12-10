@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	color: #888888;
+	border-top: 1px solid #eeeeee;
+	margin-top: 16px;
+	padding: 16px 0;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+header {
+	
+	margin-bottom: 16px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;bottom: 0;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+	  float: right;
+	  display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+}
+  .topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+  }
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#design {
+	width:auto;
+    margin:0 auto;
+}
+#devices {
+    width:10%;
+    float:left;
+	padding: 1%;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+#canvas {
+    width:86%;
+    float:left;
+	overflow: hidden;
+	word-wrap: break-word;
+	padding: 1%
+}
+#clear {
+    clear: both;
+}
+
+.sidebar {
+	height: 100%;
+	width: 160px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	padding: 16px;
+  }
+  
+  .sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidebar a:hover {
+	color: #f1f1f1;
+  }
+  
