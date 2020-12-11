@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Network Designer</title>
+		<link rel="stylesheet" href="/css/styles.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="/css/vis.css">
+		<script type="text/javascript" src="/public/script/vis.js"></script>
+		<script ty	pe="text/javascript" src="/public/script/util.js"></script>
+	</head>
+
+	<body>
+		{{>header}}
+		<div class='mainContent'>
+			
+			<div class="navbar">
+  				
+  				
+				<div class="dropdown">
+    				<button class="dropbtn">File 
+      					<i class="fa fa-caret-down"></i>
+    				</button>
+   	 				<div class="dropdown-content">
+      					<a href="#">New</a>
+      					<a href="#">Open</a>
+      					<a href="#">Save</a>
+    				</div>
+ 	 			</div> 
+
+				<a href="#save">Save</a>
+  				<a href="#clear">Clear</a>
+			</div>
+			
+
+			
+			<div id="design">
+				<div class="sidebar" id="devices">
+  					<a href="#router"><i class="material-icons">router</i> Router</a>
+ 			 		<a href="#switch"><i class="material-icons">memory</i> Switch</a>
+  					<a href="#connectors"><i class="material-icons">keyboard_backspace</i> Connectors</a>
+  					<a href="#computer"><i class="material-icons">desktop_windows</i></i> Computer</a>
+					<a href="#server"><i class="fa fa-server"></i> Server</a>
+				</div>
+			
+				<div id="canvas">
+						Canvas - The canvas goes here. It's where we use the images of different devices to
+						create a network topology or diagram.
+					
+				</div>
+
+				<div id="clear">
+					
+				</div>
+			</div>
+			
+		</div>
+		{{>footer}}
+	</body>
+</html>
+
+
+
+
+
